@@ -4,9 +4,14 @@
  * Description: Adds an English/French language switcher with flags, localized content fields, and EN/FR URL prefixes for inner pages.
  * Version: 1.0.0
  * Author: Nasir Saeed
+ * Author URI: https://nasir-saeed-dev.netlify.app/
+ * Plugin URI: https://nasir-saeed-dev.netlify.app/
+ * Developer: Nasir Saeed
+ * Developer Title: Software Engineer & Full Stack Developer | Transforming Ideas into Innovative Solutions
  * License: GPL-2.0-or-later
  * Text Domain: language-converter-plugin
  */
+
 
 if (!defined('ABSPATH')) {
     exit;
@@ -19,7 +24,8 @@ define('LCP_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 require_once LCP_PLUGIN_DIR . 'includes/class-lcp-core.php';
 
-function lcp_bootstrap() {
+function lcp_bootstrap()
+{
     LCP_Core::instance();
 }
 add_action('plugins_loaded', 'lcp_bootstrap');
