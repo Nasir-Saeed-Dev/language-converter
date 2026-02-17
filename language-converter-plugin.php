@@ -4,8 +4,7 @@
  * Description: Adds an English/French language switcher with flags, localized content fields, and EN/FR URL prefixes for inner pages.
  * Version: 1.0.0
  * Author: Nasir Saeed
- * Author URI: https://nasir-saeed-dev.netlify.app/
- * Plugin URI: https://nasir-saeed-dev.netlify.app/
+ * Author URI: https://nasir-saeed-dev.netlify.app
  * Developer: Nasir Saeed
  * Developer Title: Software Engineer & Full Stack Developer | Transforming Ideas into Innovative Solutions
  * License: GPL-2.0-or-later
